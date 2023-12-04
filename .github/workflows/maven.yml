@@ -34,3 +34,5 @@ jobs:
         with:
           name: repo-a-artifact
           path: target/*.jar
+      - name: Debug Directory Contents
+        run: ls -R target
